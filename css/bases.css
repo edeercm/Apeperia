@@ -1,0 +1,136 @@
+:root {
+    --head-color1: #000000;
+    --head-color2: #FFFFFF;
+    --head-navcontent-color1: #000000;
+    --head-navcontent-color2: #FFFFFF;
+    --head-navcontenthover-color: #11ABB0;
+    --head-toggler-color: #000000;
+    --head-bars-color: #FFFFFF;
+
+    --llamada-color: #FFFFFF;
+    --llamada-titulo-color: #000000;
+    --llamada-texto-color: #000000;
+    
+    --destacados-color: #FFFFFF;
+    --destacados-titulo-color: #000000;
+
+    --diferenciales-color: #FFFFFF;
+    --item-color: #000000;
+
+    --sobre-nosotrostitulo-color:#000000;
+
+    --planes-color:#FFFFFF;
+    --planes-titulo-color:#000000;
+    --planes-card-color:#000000;
+    --planes-cardprice-color:#FFFFFF;
+    --planes-cardlists-color:#FFFFFF;
+    --planes-cardaction-color1:#FFFFFF;
+    --planes-cardaction-color2:#000000;
+    --planes-cardactionhover-color:#FFFFFF;
+
+    --contacto-color: #000000;
+    --institucional-color: #000000;
+    --institucional-contactoemail-color: #000000;
+
+    --footer-color: #000000;
+    --footer-nav-color: #FFFFFF;
+
+    --btn-color1:#FFFFFF;
+    --btn-color2:#000000;
+    --btn-hover-color1: #F2F2F2;
+    --btn-hover-color2: #000000;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --open-sans: 'Open sans', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.button {
+    max-width: 320px;
+    display: flex;
+    padding: 0.75rem 1.4rem;
+    font-family: var(--montserrat);
+    font-size: 0.975rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: none;
+    gap: 0.75rem;
+    color: var(--btn-color1);
+    background-color: var(--btn-color2);
+    cursor: pointer;
+    transition: all .75s ease;
+}
+
+.button:hover {
+    background-color: var(--btn-hover-color1);
+    color: var(--btn-hover-color2);
+    transform: scale(1.01);
+}
+
+.button2 {
+    max-width: 320px;
+    display: flex;
+    padding: 0.85rem 2.25rem;
+    font-family: var(--montserrat);
+    font-size: 0.975rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: none;
+    gap: 0.75rem;
+    color: var(--btn-color1);
+    background-color: var(--btn-color2);
+    cursor: pointer;
+    transition: all .75s ease;
+}
+
+.button2:hover {
+    background-color: var(--btn-hover-color1);
+    color: var(--btn-hover-color2);
+    transform: scale(1.01);
+}
+
+.button3 {
+    max-width: 320px;
+    display: flex;
+    padding: 0.75rem 1.4rem;
+    font-family: var(--montserrat);
+    font-size: 0.975rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: none;
+    gap: 0.75rem;
+    color: var(--btn-color1);
+    background-color: var(--btn-color2);
+    cursor: pointer;
+    transition: all .75s ease;
+}
+
+.button3:hover {
+    background-color: var(--btn-hover-color1);
+    color: var(--btn-hover-color2);
+    transform: scale(1.01);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
